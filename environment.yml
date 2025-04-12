@@ -1,0 +1,21 @@
+name: quizmate
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - fastapi>=0.105.0
+  - uvicorn>=0.24.0
+  - pydantic>=2.4.2
+  - python-dotenv>=1.0.0
+  - httpx>=0.25.0
+  - tenacity>=8.2.3
+  - python-jose>=3.3.0
+  - passlib>=1.7.4
+  - pip>=23.0
+  - conda-forge::langchain>=0.1.0
+  - conda-forge::pydantic-settings>=2.0.0
+  - conda-forge::google-generativeai>=0.3.0
+  # The following package needs to be installed via pip as it's not in conda channels
+  - pip:
+    - langchain-google-genai>=0.0.5 
