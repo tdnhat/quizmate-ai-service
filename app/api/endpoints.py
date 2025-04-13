@@ -13,16 +13,39 @@ router = APIRouter()
 
 # Category mapping
 CATEGORIES = {
+    # Academic
     "programming": "Programming",
-    "computer_science": "Computer Science",
+    "mathematics": "Mathematics",
+    "history": "History",
+    "science": "Science",
+    "literature": "Literature",
+    
+    # Technology
     "web_dev": "Web Development",
-    "data_science": "Data Science",
-    "devops": "DevOps",
-    "cloud": "Cloud Computing",
-    "security": "Cybersecurity",
-    "databases": "Databases",
-    "networking": "Networking",
-    "mobile_dev": "Mobile Development"
+    "data_science": "Data Science", 
+    "artificial_intelligence": "Artificial Intelligence",
+    "mobile_dev": "Mobile Development",
+    "cybersecurity": "Cybersecurity",
+    "computer_science": "Computer Science",
+    "cloud_computing": "Cloud Computing",
+    
+    # Business
+    "finance": "Finance",
+    "marketing": "Marketing",
+    "business_management": "Business Management",
+    
+    # Entertainment
+    "movies_tv": "Movies & TV",
+    "gaming": "Gaming",
+    "music": "Music",
+    "sports": "Sports",
+    
+    # Miscellaneous
+    "general_knowledge": "General Knowledge",
+    "food_cooking": "Food & Cooking",
+    "geography": "Geography",
+    "health_fitness": "Health & Fitness",
+    "languages": "Languages"
 }
 
 
