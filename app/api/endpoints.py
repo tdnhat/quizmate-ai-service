@@ -24,6 +24,7 @@ CATEGORIES = {
     "web_dev": "Web Development",
     "data_science": "Data Science", 
     "artificial_intelligence": "Artificial Intelligence",
+    "ai": "Artificial Intelligence",
     "mobile_dev": "Mobile Development",
     "cybersecurity": "Cybersecurity",
     "computer_science": "Computer Science",
